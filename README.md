@@ -21,3 +21,5 @@ Proje 8 ordery summary url:https://order-summary-pages.netlify.app/
 Proje 9 product-preview-card-parfum url:https://product-preview-card-parfum.netlify.app/
 
 Proje 10 Profile-sayfasi url:https://profile-pages.netlify.app/
+
+Proje 11  qr-code url:https://qr-code-compenent.netlify.app/
