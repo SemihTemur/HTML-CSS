@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500;600;700&family=Fraunces:opsz,wght@9..144,700&family=Kumbh+Sans:wght@100;300&display=swap');
+
+
+body{
+    background-color:  hsl(185, 75%, 39%);
+    overflow: hidden;
+background-image: url(images/bg-pattern-top.svg),url(images/bg-pattern-bottom.svg);
+background-repeat: no-repeat,no-repeat;
+background-position: right 50vw bottom 17vh,left 50vw top 50vh;
+
+
+
+}
+.div1{
+    width: 370px;
+    height: 350px;
+    border: 1px solid rgba(0, 0, 0, 0.036);
+    margin: 0px auto;
+  margin-top: 200px;
+   border-radius: 20px;
+
+display: block;
+}
+.div2{
+    height: 100px;
+    border-radius: 20px;
+    
+}
+.div2>svg{
+    border-radius:10px 10px 0px 0px;
+}
+.div3{
+    height: 300px;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+   width: 350px;
+}
+.div4{
+    
+    margin-left: 130px;
+
+
+background-color: white;
+}
+.div4>img{
+    border-radius: 50px;
+}
+.div3>h1{
+
+    font-weight:  700;
+    font-size: 20px;
+text-align: center;
+margin-left: -23px;
+color:hsl(229, 23%, 23%);
+}
+.div3>p{
+margin-top :-34px ;
+display:block;
+margin-left: 227px;
+font-family: 'Kumbh Sans', sans-serif;
+
+}
+#yaa{
+    margin-top: 10px;
+    margin-left: 150px;
+    color: hsl(229, 23%, 23%);
+}
+.div5{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin-top: -105px;
+    width: 350px;
+}
+.div6{
+    display: flex;
+    justify-content:space-evenly;
+    font-weight:  400;
+    font-size: 12px;
+   margin-top: 10px;
+}
+.div6>h1{
+    font-style: 'Fraunces', serif;;
+}
+.div7{
+    display: flex;
+    justify-content: space-evenly;
+    font-weight:  400;
+    font-size: 12px;
+    margin-top: -20px;
+    margin-left: -15px;
+}
+.div7>p{
+    font-family: 'Kumbh Sans', sans-serif;
+   color: hsl(227, 10%, 46%);
+}
+#kk{
+    font-size: 50px;
+    margin-left: 0px;
+    width: 94px;
+    margin-top: -100px;
+    display: block;
+}
+#oo{
+    margin-left: -25px;
+    border-radius: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.062);
+    width: 100px;
+    margin-left: -4px;
+    background-color: white;
+}
+#yıll{
+    margin-left: 820px;
+margin-top: 500px;
+
+}
