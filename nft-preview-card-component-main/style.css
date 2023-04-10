@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Outfit';
+}
+html.body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: flex-start;
+    background-color:hsl(216, 50%, 16%) ;
+    margin-top: 70px;
+    gap: 15px;
+    padding-left: 22px;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding-right: 20px;
+    border-radius: 20px;
+    max-width: 316px;
+}
+.cardimage{
+    padding-top: 20px;
+}
+.cardimage>img{
+    width: 270px;
+    height: 250px;
+    border-radius: 10px;
+}
+.word1>p{
+    color:hsl(0, 0%, 100%);
+    font-size: 18px;
+}
+.word2>p{
+    line-height: 1.5;
+    color: hsl(215, 32%, 27%);
+    font-size: 16px;
+}
+.colm{
+    display: flex;
+justify-content: space-between;
+  align-items: center;  
+}
+.colm1{
+    display: flex;
+    gap: 10px;
+}.colm1>p{
+color: hsl(178, 100%, 50%);
+}
+.colm2>p{
+    color: hsl(215, 51%, 70%) ;
+}
+.imgg{
+    display: flex;
+    justify-content: flex-start;
+}
+.imgg>img{
+    width: 30px;
+    border: 1px solid white;
+   border-radius: 50%;
+}
+.colm2{
+    display: flex;
+    gap: 10px;
+}
+.czg{
+    width: 270px;
+   height: 1px;
+    background-color: hsla(0, 0%, 100%, 0.168);
+ margin-top: 5px;
+}
+.imgg{
+    display: flex;
+    gap: 10px;
+    padding-bottom: 20px;
+    margin-top: 5px;
+}
+.imgg>p{
+    margin-top: 5px;
+    color:hsl(0, 0%, 100%);
+}
+#se{
+    color: hsl(215, 51%, 70%);
+}
+
+
+@media screen and (min-width:768px) {
+.card{
+    width: 320px;
+    margin-top: 120px;
+}
+
+.czg{
+    width: 275px;
+}
+.cardimage>img{
+margin-left: 1px;
+}
+.cardimage>img:hover{
+    cursor: pointer;
+    }
+.word1>p:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.imgg>p:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer
+   
+}
+.cardimage{
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+}
