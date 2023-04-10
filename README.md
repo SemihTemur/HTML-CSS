@@ -13,3 +13,5 @@ Proje 4 Huddle-landing-page2 url:https://huddle-landing2.netlify.app/
 Proje 5 Huddle-landing-page3 url:https://huddle-landing3.netlify.app/
 
 Proje 6 Cards-page url:https://cards-pages.netlify.app/
+
+Proje 7 prewiev-card url :https://prewiev-card.netlify.app/
