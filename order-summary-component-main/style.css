@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   background-color:   hsl(225, 100%, 94%);
+}
+.card{
+    background-color: hsl(225, 100%, 98%) ;
+    margin-left: 10px;
+    padding-right: 50px;
+    margin-left: 20px;
+    padding-right: 0px;
+    margin-right: 21px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.music>img{
+    width: 350px;
+   border-radius: 20px 20px 0px 0px;
+}
+.yazı2{
+    width: 270px;
+    padding-bottom: 15px;
+}
+.yazı2>p{
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.cont{
+    background-color: hsla(224, 23%, 55%, 0.034) ;
+    display: flex;
+    padding: 10px;
+    gap:15px;
+    align-items: center;
+    border-radius: 10px;
+}
+.yazı3{
+    padding-right: 30px;
+}
+.yazı3>h1{
+    font-size: 15px;
+}
+.a{
+    padding-left: 20px;
+}
+.butn{
+    background-color: hsl(245, 75%, 52%);
+    padding: 15px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border-radius: 10px;
+    border: none;
+    color:hsl(225, 100%, 98%) ;
+    font-size: 15px;
+    box-shadow: rgb(50 50 93 / 25%) 0px 13px 27px -5px, rgb(0 0 0 / 30%) 0px 8px 16px -8px;
+}
+.btn{
+border: none;
+color:  hsl(224, 23%, 55%);
+font-size: 15px;
+margin-bottom: 30px;
+margin-top: 5px;
+    
+}
+.a>a{
+  color: hsl(245, 75%, 52%)  ;
+}
+@media screen and (min-width:768px) {
+    .a>a:hover{
+text-decoration: none;
+color:  hsl(245, 75%, 52%);
+    }
+    .butn:hover{
+        
+    
+    cursor: pointer;
+    }
+    .yazı2{
+        width: 300px;
+        
+    }
+    .yazı2>p{
+        font-size: 14px;
+    }
+    .cont{
+      width: 285px;
+    }
+  .butn{
+    padding-left: 75px;
+    padding-right: 75px;
+  }
+  .btn:hover{
+cursor: pointer;
+color: var(--desaturated-blue); ;
+font-weight: 700;
+  }
+}
