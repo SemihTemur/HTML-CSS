@@ -23,3 +23,5 @@ Proje 9 product-preview-card-parfum url:https://product-preview-card-parfum.netl
 Proje 10 Profile-sayfasi url:https://profile-pages.netlify.app/
 
 Proje 11  qr-code url:https://qr-code-compenent.netlify.app/
+
+Proje 12 results-summary-component url :https://results-summary-compenen.netlify.app/
