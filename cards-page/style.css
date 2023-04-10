@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Big+Shoulders+Display:wght@700&display=swap');
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card{
+   margin-bottom: 50px;
+   max-width: 220px;
+}
+.div1{
+ background-color:hsl(31, 77%, 52%) ;   
+ padding-left: 30px;
+ padding-right: 30px;
+ border-radius: 10px 10px 0px 0px;
+}
+.div1>h1{
+    text-transform: uppercase;
+    font-size: 25px;
+  color:  hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", "cursive";;
+  text-transform: uppercase;
+}
+.div1 img{
+    padding-top: 20px;
+}
+.div1>p{
+   max-width:  150px;
+   min-width: 10vw;
+    text-align: left;
+    font-weight: 400;
+    font-size: 10px;
+    color:hsla(0, 0%, 100%, 0.75);
+    line-height: 1rem;
+    font-family: "Lexend Deca", sans-serif;;
+    padding-bottom: 10px;
+}
+    
+    .div1 button{
+       margin-bottom: 30px;
+       border: none;
+       background-color: hsl(0, 0%, 95%);;
+       border-radius: 50px;
+    width:  65%;
+      padding: 10px 0px 10px 0px ;
+      color:hsl(31, 77%, 52%);
+     
+      
+    }
+
+    .div2{
+        background-color: hsl(184, 100%, 22%) ;   
+        padding-left: 30px;
+        padding-right: 5px;
+       }
+       .div2>h1{
+        text-transform: uppercase;
+        font-size: 25px;
+      color:  hsl(0, 0%, 95%);
+      font-family: "Big Shoulders Display", "cursive";;
+      text-transform: uppercase;
+       }
+       .div2 img{
+           padding-top: 20px;
+       }
+       .div2>p{
+        max-width:  160px;
+        min-width: 10vw;
+           text-align: left;
+           font-weight: 400;
+           font-size: 10px;
+           color:hsla(0, 0%, 100%, 0.75);
+           line-height: 1rem;
+           font-family: "Lexend Deca", sans-serif;;
+           padding-bottom: 10px;
+           }
+           .div2 button{
+            margin-bottom: 30px;
+            border: none;
+            background-color: hsl(0, 0%, 95%);;
+            border-radius: 50px;
+         width:  65%;
+           padding: 10px 0px 10px 0px ;
+           color:hsl(184, 100%, 22%);
+           }
+
+           .div3{
+            background-color: hsl(179, 100%, 13%) ;   
+            padding-left: 30px;
+            padding-right: 20px;
+            border-radius: 0px 0px 10px 10px;
+
+           }
+           .div3>h1{
+            text-transform: uppercase;
+            font-size: 25px;
+          color:  hsl(0, 0%, 95%);
+          font-family: "Big Shoulders Display", "cursive";;
+          text-transform: uppercase;
+           }
+           .div3 img{
+               padding-top: 20px;
+           }
+           .div3>p{
+            font-weight: 400;
+            font-size: 10px;
+            color:hsla(0, 0%, 100%, 0.75);
+            line-height: 1rem;
+            font-family: "Lexend Deca", sans-serif;;
+               text-align: left;
+               max-width:  148px;
+               min-width: 10vw;
+               }
+               .div3 button{
+                  margin-bottom: 30px;
+                  border: none;
+                  background-color: hsl(0, 0%, 95%);;
+                  border-radius: 50px;
+               width:  65%;
+                 padding: 10px 0px 10px 0px ;
+                 color:hsl(179, 100%, 13%);
+               }
+               @media screen and (min-width:768px) {
+                .card{
+                    display: flex;
+
+                    flex-direction: row;
+                    max-width: 750px;
+                }
+                .div1{
+                  border-radius: 10px 0px 0px 10px;
+                }
+.div1>p{
+  max-width:  150px;
+   min-width: 11vw;
+   font-size: 13px;
+   line-height: 1.5;
+}
+.div1>button{
+  margin-top: 30px;
+}
+.div2{
+  padding-right: 30px;
+}
+.div2>button{
+  margin-top: 30px;
+}
+.div2>p{
+  max-width:  150px;
+  min-width: 11.6vw;
+  font-size: 12.7px; 
+  line-height: 1.5;
+}
+.div3{
+  padding-right: 30px;
+  border-radius: 0px 10px 10px 0px;
+}
+.div3>p{
+  max-width:  150px;
+  min-width: 11vw;
+  font-size: 12.1px; 
+  line-height: 1.5;
+}
+.div3>button{
+  margin-top: 45px;
+
+}
+               }
