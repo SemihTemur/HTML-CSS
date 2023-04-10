@@ -25,3 +25,5 @@ Proje 10 Profile-sayfasi url:https://profile-pages.netlify.app/
 Proje 11  qr-code url:https://qr-code-compenent.netlify.app/
 
 Proje 12 results-summary-component url :https://results-summary-compenen.netlify.app/
+
+Proje 13 single-price-grid-component-master url:https://single-price-gridd-pages.netlify.app/
