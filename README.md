@@ -17,3 +17,5 @@ Proje 6 Cards-page url:https://cards-pages.netlify.app/
 Proje 7 prewiev-card url :https://prewiev-card.netlify.app/
 
 Proje 8 ordery summary url:https://order-summary-pages.netlify.app/
+
+Proje 9 product-preview-card-parfum url:https://product-preview-card-parfum.netlify.app/
